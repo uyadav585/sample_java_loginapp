@@ -10,7 +10,7 @@
 <center>
 ${message }
 </center>
- <form method="post" action="register">
+ <form method="post" action="register.jsp">
             <center>
             <table border="1" width="30%" cellpadding="5">
                 <thead>
