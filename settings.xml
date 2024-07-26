@@ -4,12 +4,12 @@
   <servers>
     <server>
       <username>vk9338530@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NTI1NzE0NTE6eGE3alZINjVwYzFvdUpiZVBKY3RGb3REVEgx</password>
+      <password>cmVmdGtuOjAxOjE3NTM1MTUxNjM6em9SOFVzYklQQnFUTlp2b2RhOWVCam85VHVY</password>
       <id>central</id>
     </server>
     <server>
       <username>vk9338530@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NTI1NzE0NTE6eGE3alZINjVwYzFvdUpiZVBKY3RGb3REVEgx</password>
+      <password>cmVmdGtuOjAxOjE3NTM1MTUxNjM6em9SOFVzYklQQnFUTlp2b2RhOWVCam85VHVY</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,13 +21,13 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>java-login-app-libs-release</name>
+          <name>threetier-libs-release</name>
           <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>java-login-app-libs-snapshot</name>
+          <name>threetier-libs-snapshot</name>
           <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-snapshot</url>
         </repository>
       </repositories>
@@ -37,13 +37,13 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>java-login-app-libs-release</name>
+          <name>threetier-libs-release</name>
           <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>java-login-app-libs-snapshot</name>
+          <name>threetier-libs-snapshot</name>
           <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
