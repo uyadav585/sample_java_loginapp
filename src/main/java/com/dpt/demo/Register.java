@@ -91,15 +91,15 @@ public class Register {
 
     private static final Logger LOGGER = Logger.getLogger(Register.class.getName());
 
-    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    @RequestMapping(value = "/register.jsp", method = RequestMethod.GET)
     public ModelAndView registerForm() {
-        ModelAndView mv = new ModelAndView("register");
+        ModelAndView mv = new ModelAndView("register.jsp");
         return mv;
     }
 
-    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/register.jsp", method = RequestMethod.POST)
     public ModelAndView register(String firstName, String lastName, String email, String userName, String password) {
-        ModelAndView mv = new ModelAndView("register");
+        ModelAndView mv = new ModelAndView("register.jsp");
         Connection con = null;
         PreparedStatement ps = null;
 
