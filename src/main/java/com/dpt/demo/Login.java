@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Login {
+public class login {
 
 	@Value("${spring.datasource.url}")
 	private String url;
@@ -30,7 +30,7 @@ public class Login {
 
 	private String errorMessage="";
 	
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	@RequestMapping(value = "login", method = RequestMethod.POST)
 	public ModelAndView login(String userName, String password) throws ClassNotFoundException {
 
 		
@@ -44,16 +44,10 @@ public class Login {
 				System.out.println(
 						rs.getString(1) + " " + rs.getString(2) + " " + rs.getString(3) + " " + rs.getString(4));
 				userId = rs.getString(4);
-				ModelAndView mv = new ModelAndView("home");
-                mv.addObject("username", rs.getString("username"));
-                return mv;
 			}
 		} catch (SQLException ex) {
 			System.out.println(ex.getMessage());
 			errorMessage=ex.getMessage();
-			ModelAndView mv = new ModelAndView("fail");
-            mv.addObject("errorMessage", errorMessage);
-            return mv;
 		}
 
 		ModelAndView mv;
@@ -74,7 +68,7 @@ public class Login {
 	
 	
 	
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	@RequestMapping(value = "login", method = RequestMethod.GET)
 	public ModelAndView registerform()
 	{
 		ModelAndView mv=new ModelAndView("login");

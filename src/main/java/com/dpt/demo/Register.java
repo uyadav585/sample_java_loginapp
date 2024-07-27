@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Register {
+public class register {
 	
 
 	@Value("${spring.datasource.url}")
@@ -25,7 +25,7 @@ public class Register {
 	private String DBpassword;
 	
 	
-	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	@RequestMapping(value = "register", method = RequestMethod.GET)
 	public ModelAndView registerform()
 	{
 		ModelAndView mv=new ModelAndView("register");
@@ -34,10 +34,10 @@ public class Register {
 	}
 	
 	
-	@RequestMapping(value = "/register", method = RequestMethod.POST)
+	@RequestMapping(value = "register", method = RequestMethod.POST)
 	public ModelAndView register(String firstName,String lastName,String email,String userName,String password) throws ClassNotFoundException
 	{
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		Class.forName("com.mysql.jdbc.Driver");
 		//Add employee here
 		try (Connection con = DriverManager.getConnection(url, DBusername, DBpassword);
 				Statement st = con.createStatement()) {

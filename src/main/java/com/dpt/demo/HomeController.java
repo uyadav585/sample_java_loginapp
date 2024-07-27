@@ -17,9 +17,9 @@ public class HomeController {
 
 
 	
-	@RequestMapping("/home")
+	@RequestMapping("home")
 	public ModelAndView home() {
-		ModelAndView mv = new ModelAndView("home.jsp");
+		ModelAndView mv = new ModelAndView("home");
 
 		//mv.addObject("username", "");
 		
@@ -28,7 +28,7 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public ModelAndView Default() {
-		ModelAndView mv = new ModelAndView("home.jsp");
+		ModelAndView mv = new ModelAndView("home");
 
 		//mv.addObject("username", "");
 		

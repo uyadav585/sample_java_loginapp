@@ -20,7 +20,3 @@ Welcome ${username}
 
 </body>
 </html>
-
-
-
-

@@ -10,7 +10,7 @@
 <center>
 ${message }
 </center>
- <form method="post" action="register.jsp">
+ <form method="post" action="register">
             <center>
             <table border="1" width="30%" cellpadding="5">
                 <thead>
@@ -44,7 +44,7 @@ ${message }
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered!! <a href="login.jsp">Login Here</a></td>
+                        <td colspan="2">Already registered!! <a href="login">Login Here</a></td>
                     </tr>
                 </tbody>
             </table>
