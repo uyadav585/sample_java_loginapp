@@ -4,12 +4,12 @@
   <servers>
     <server>
       <username>vk9338530@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NTM1MTUxNjM6em9SOFVzYklQQnFUTlp2b2RhOWVCam85VHVY</password>
+      <password>cmVmdGtuOjAxOjE3NTQyOTc5NTI6cWtCRXJMdjVrT0hrT3FZUGtBMks5MWxtelo4</password>
       <id>central</id>
     </server>
     <server>
       <username>vk9338530@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NTM1MTUxNjM6em9SOFVzYklQQnFUTlp2b2RhOWVCam85VHVY</password>
+      <password>cmVmdGtuOjAxOjE3NTQyOTc5NTI6cWtCRXJMdjVrT0hrT3FZUGtBMks5MWxtelo4</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -22,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>threetier-libs-release</name>
-          <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-release</url>
+          <url>https://threetierloginapp1.jfrog.io/artifactory/threetier-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>threetier-libs-snapshot</name>
-          <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-snapshot</url>
+          <url>https://threetierloginapp1.jfrog.io/artifactory/threetier-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>threetier-libs-release</name>
-          <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-release</url>
+          <url>https://threetierloginapp1.jfrog.io/artifactory/threetier-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>threetier-libs-snapshot</name>
-          <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-snapshot</url>
+          <url>https://threetierloginapp1.jfrog.io/artifactory/threetier-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>

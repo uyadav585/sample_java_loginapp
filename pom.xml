@@ -93,7 +93,7 @@
     <repository>
         <id>central</id>
         <name>a0ezpnqse8cnv-artifactory-primary-0-releases</name>
-        <url>https://threetierloginapp.jfrog.io/artifactory/threetier-libs-release-local</url>
+        <url>https://threetierloginapp1.jfrog.io/artifactory/threetier-libs-release-local</url>
     </repository>
 </distributionManagement>
 </project>
