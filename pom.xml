@@ -30,8 +30,7 @@
         <properties>
                 <sonar.organization>javaloginapp</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-                <sonar.login>0aa722758d1a791acdea4621b8320fd3b75b7c83</sonar.login>
-                <!-- sonar.login>e7194b8b5bbd6509fc89b4eec0bcc4f5579ae798</sonar.login -->
+                <sonar.login>e7194b8b5bbd6509fc89b4eec0bcc4f5579ae798</sonar.login>
                 <java.version>17</java.version>
         </properties>
         <dependencies>
