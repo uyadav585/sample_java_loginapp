@@ -29,8 +29,8 @@
         </scm>
         <properties>
                 <sonar.organization>javaloginapp</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>e7194b8b5bbd6509fc89b4eec0bcc4f5579ae798</sonar.login>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                <sonar.login>e7194b8b5bbd6509fc89b4eec0bcc4f5579ae798</sonar.login>
                 <java.version>17</java.version>
         </properties>
         <dependencies>
@@ -79,9 +79,9 @@
                                 <artifactId>spring-boot-maven-plugin</artifactId>
                         </plugin>
                         <plugin>
-                                        <groupId>org.sonarsource.scanner.maven</groupId>
-                                        <artifactId>sonar-maven-plugin</artifactId>
-                                        <version>3.9.0.2155</version> <!-- Replace with the latest version -->
+                                <groupId>org.sonarsource.scanner.maven</groupId>
+                                <artifactId>sonar-maven-plugin</artifactId>
+                                <version>3.9.0.2155</version> <!-- Replace with the latest version -->
                         </plugin>
                 </plugins>
         </build>
